@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of /.well-known/ on coffeemeetsbagel.com
+host: https://www.coffeemeetsbagel.com
+note: >-
+  Apex host redirects (308) to www; all discovery documents return 404. No
+  well-known catalog, security.txt, OIDC/OAuth metadata, api-catalog, or
+  ai-plugin is published. Coffee Meets Bagel is a consumer dating app with no
+  public developer/API surface. Recorded for audit; no WellKnown pointer wired
+  (no real catalog present).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404

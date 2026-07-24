@@ -1,8 +1,29 @@
 aid: coffee-meets-bagel
 name: Coffee Meets Bagel
-description: 'Coffee Meets Bagel is a company surfaced as a portfolio company of dcm-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Coffee Meets Bagel (CMB) is a consumer dating application built for people
+  seeking serious, committed relationships rather than casual swiping. Founded
+  by three sisters, the app uses a curated daily-match model and reports over
+  150 million matches, with the large majority of its daters looking for a
+  long-term partner. The company operates a mobile-first product for iOS and
+  Android across the US, Canada, and worldwide markets, supported by a premium
+  subscription tier. It was surfaced in the API Evangelist network as a
+  portfolio company of DCM Ventures. Coffee Meets Bagel publishes no public
+  developer or partner API, no OpenAPI/AsyncAPI specifications, and no
+  /.well-known discovery surface; this profile therefore carries company
+  identity, verified public web properties, and a domain-security probe only.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/CPaXwmWNrhyKoEf3zu2k8Bukls.jpg
 url: https://raw.githubusercontent.com/api-evangelist/coffee-meets-bagel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Dating
+- Dating App
+- Social
+- Relationships
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://coffeemeetsbagel.com/
+- type: Blog
+  url: https://coffeemeetsbagel.com/blog
+- type: Support
+  url: https://coffeemeetsbagel.zendesk.com/hc/en-us/
+- type: TermsOfService
+  url: https://coffeemeetsbagel.com/tos
+- type: PrivacyPolicy
+  url: https://coffeemeetsbagel.com/privacy
+- type: DomainSecurity
+  url: security/coffee-meets-bagel-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
