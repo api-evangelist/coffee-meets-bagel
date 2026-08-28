@@ -12,6 +12,17 @@ description: >-
   developer or partner API, no OpenAPI/AsyncAPI specifications, and no
   /.well-known discovery surface; this profile therefore carries company
   identity, verified public web properties, and a domain-security probe only.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
